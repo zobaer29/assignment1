@@ -49,3 +49,62 @@ nav {
     padding: 40px 0px;
     padding-bottom: 10%;
 }
+/* showcase section css */
+main {
+    background-color: #f5f8ff;
+}
+.showcase {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 7% 0;
+    align-items: center;
+}
+.showcase-content {
+    font-family: 'Raleway';
+    width: 517px;
+}
+.showcase-content h3 {
+    font-size: 42px;
+    font-weight: bold;
+}
+.showcase-content h4 {
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.6);
+    font-weight: 300;
+    margin: 20px 0;
+}
+.showcase img {
+    border-radius: 30px;
+}
+/* user statistics section css */
+.stats-title {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Raleway';
+}
+.stats {
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1140px;
+    margin: 20px auto;
+    padding: 60px 0;
+    border-radius: 30px;
+}
+.stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin-top: 30px;
+}
+.stats-number {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    font-family: 'Inter';
+}
+.stats-label {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
