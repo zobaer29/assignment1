@@ -172,3 +172,43 @@ main {
     border-radius: 40px;
     margin: 20px 0;
 }
+
+.contact-container {
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 7% auto;
+    padding-bottom: 5%;
+    align-items: center;
+}
+.contact-container h1 {
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    width: 528px;
+}
+.input-small {
+    padding: 20px 0 20px 20px;
+    width: 477px;
+    font-size: 20px;
+    margin: 15px 0 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(231, 226, 226);
+}
+.input-large {
+    padding: 20px 0 70px 20px;
+    width: 477px;
+    font-size: 20px;
+    margin: 15px 0 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(231, 226, 226);
+}
+.contact-form label {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+.send-btn {
+    width: 497px;
+    padding: 17px 0;
+}
