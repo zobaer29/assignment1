@@ -108,3 +108,45 @@ main {
     font-size: 24px;
     color: rgba(0, 0, 0, 0.5);
 }
+/* testimonials css */
+.testimonials {
+    margin-top: 6%;
+}
+.feedback-cards {
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 2% auto;
+}
+.feedback-card {
+    width: 340px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+.user-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.user-avatar {
+    border-radius: 50px;
+}
+.feedback-title {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+.feedback-card p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.feedback-card h4 {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 14px;
+    font-weight: 600;
+}
+.feedback-card h5 {
+    color: rgba(37, 36, 50, 0.3);
+}
