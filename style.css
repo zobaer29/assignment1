@@ -212,3 +212,34 @@ main {
     width: 497px;
     padding: 17px 0;
 }
+footer {
+    background-color: white;
+    text-align: center;
+    height: 320px;
+}
+footer div {
+    width: 531px;
+    margin: 0 auto;
+}
+footer h3 {
+    font-size: 100px;
+    color: #4E47FF;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+footer p {
+    color: rgba(37, 36, 50, 0.7);
+    margin: 15px 0;
+}
+ul {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: rgba(37, 36, 50, 0.7);
+}
