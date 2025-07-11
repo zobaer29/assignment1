@@ -150,3 +150,25 @@ main {
 .feedback-card h5 {
     color: rgba(37, 36, 50, 0.3);
 }
+.cta {
+    text-align: center;
+    width: 1140px;
+    margin: 5% auto;
+    background-color: white;
+    padding: 2% 0;
+    border-radius: 10px;
+}
+.cta h3 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Inter';
+    margin: 15px 0;
+}
+.cta p {
+    color: rgba(37, 36, 50, 0.7);
+    margin: 15px 0;
+}
+.cta div img {
+    border-radius: 40px;
+    margin: 20px 0;
+}
